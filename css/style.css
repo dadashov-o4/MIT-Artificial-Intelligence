@@ -1,0 +1,683 @@
+* {
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #08101d;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+header .nav {
+    display: none;
+}
+
+header nav a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 30px;
+}
+
+header .sign .sign-in {
+    display: none;
+}
+
+
+
+
+
+
+.introduction .introduction-left-side h5 {
+    color: #3A68B8;
+    text-transform: uppercase;
+    
+}
+
+.introduction .introduction-left-side h1 {
+    font-weight: 800;
+    font-size: 45px;
+    color: #fff
+}
+
+.introduction .introduction-left-side h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+
+}
+
+.introduction .introduction-left-side article {
+    font-weight: 400;
+    font-size: 18px;
+    color: #8a8a8a;
+}
+
+.introduction .introduction-left-side .info .get {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 171px;
+    height: 57px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.introduction .introduction-left-side .info .watch {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 217px;
+    height: 57px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.introduction .introduction-left-side .info .watch .fa-play {
+    margin-right: 5px;
+}
+
+.introduction .introduction-left-side .info {
+    margin-top: 20px;
+}
+
+.introduction  {
+    margin-top: 60px;
+}
+
+.introduction .introduction-right-side img {
+    width: 300px;
+    margin: 30px 0;
+}
+
+
+.partners .companies {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.partners .companies img:nth-child(1),
+.partners .companies img:nth-child(3),
+.partners .companies img:nth-child(4) {
+    display: none;
+}
+
+.ai .ai-right h3 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.ai .ai-right article {
+    font-weight: 400;
+    font-size: 16px;
+    color: #8a8a8a;
+}
+
+.ai .ai-right .about a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 52px;
+    background-color: #3a68b8;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.ai .ai-left img {
+    width: 300px;
+    
+}
+
+.ai  {
+    margin-top: 100px;
+}
+
+.ai .ai-right {
+    width: 300px;
+    margin-top: 80px;
+}
+
+.ai .ai-right .about a {
+    margin-top: 35px;
+}
+
+
+.awards {
+    margin-top: 90px;
+}
+.awards .award-cards .award h4 {
+    font-weight: 700;
+    color: #fff;
+}
+
+.awards .award-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px ,1fr));
+}
+
+.awards .award-cards .award {
+    display: grid;
+    gap: 7px;
+    padding: 20px;
+    background-color: #0f1624;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.awards .award-cards .award img {
+    margin-left: 85px;
+}
+
+.awards .award-cards .award h4 {
+    text-align: center;
+}
+
+.awards .award-cards .award article {
+    color: #8a8a8a;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+/*! RESPONSIVE FOR NAV  */
+
+@media(min-width: 568px) {
+    header nav {
+        display: none;
+    }
+
+    header .sign {
+        display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    header .nav {
+        display: block;
+    }
+     
+   header nav a {
+    margin-left: 18px;
+   }
+
+    header .fa-bars {
+        display: none;
+    }
+
+    header .sign {
+        display: block;
+    }
+
+    
+}
+
+@media(min-width: 992px) {
+    header .nav {
+        display: block ;
+    }
+    .introduction {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+/*! RESPONSIVE FOR DEVICES*/
+@media(max-width: 575px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media(min-width: 576px) {
+    .container {
+        max-width: 540;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 768px) {
+    .container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+.partners .companies img:nth-child(1),
+.partners .companies img:nth-child(3) {
+    display: block;
+}
+
+
+.introduction {
+    margin-top: 80px;
+}
+
+.introduction .introduction-left-side .info .watch {
+    margin-left: 15px;
+}
+
+.introduction .introduction-left-side .info .watch {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 217px;
+    height: 57px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.introduction .introduction-right-side {
+    margin-top: 40px;
+}
+
+.introduction .introduction-right-side img {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.partners .companies {
+    margin-top: 70px;
+}
+.partners .companies img {
+    margin-left: 40px;
+}
+
+.ai .ai-right h3 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+
+.ai .ai-left img {
+    width: 600px;
+}
+
+.ai  {
+    margin-top: 140px;
+}
+
+.ai .ai-right {
+    width: 484px;
+    margin-top: 80px;
+}
+
+.ai .ai-right .about a {
+    margin-top: 35px;
+}
+
+
+.awards .award-cards .award h4 {
+    font-size: 23px;
+}
+
+.awards .award-cards .award:nth-child(1) {
+    padding-top: 50px;
+}
+
+}
+
+@media(min-width: 992px) {
+    .container {
+        max-width: 920px;
+        margin: 0 auto;
+    }
+
+    header .sign .sign-in {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        width: 112px;
+        height: 52px;
+        background-color: #3A68B8;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+
+    .introduction .introduction-left-side .info .watch {
+        margin-left: 0px;
+    }
+
+    .introduction .introduction-right-side img {
+        width: 502px;
+        margin: 0 auto;
+    }
+
+    .introduction .introduction-left-side {
+       padding-top: 70px;
+    }
+
+    .introduction .introduction-left-side .info {
+        margin-top: 40px;
+    }
+
+    .introduction .introduction-right-side {
+        padding-left: 50px;
+        margin-top: 28px;
+    }
+
+   
+    .introduction .introduction-left-side h1 {
+        font-size: 55px;
+    }
+    .introduction .introduction-left-side article {
+        font-size: 22px;
+    }
+
+    .partners .companies img:nth-child(1),
+    .partners .companies img:nth-child(3) {
+    display: block;
+}
+
+    .introduction .introduction-left-side .info .watch {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 217px;
+    height: 57px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    color: #fff;
+}
+
+    .partners .companies img {
+        margin-right: 50px;
+    }
+    .partners .companies {
+        margin-left: -100px;
+    }
+    .partners .companies {
+        margin-top: 70px;
+    }
+
+    .ai .ai-right h3 {
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    
+
+    .ai {
+        display: flex;
+    }
+
+
+    .ai .ai-left img {
+        width: 550px;
+    }
+
+    .ai  {
+        margin-top: 160px;
+    }
+
+    .ai .ai-right {
+        width: 484px;
+        margin-top: 80px;
+    }
+
+    .ai .ai-right .about a {
+        margin-top: 40px;
+    }
+    
+    .awards .award-cards .award h4 {
+        font-size: 23px;
+    }
+    
+    .awards .award-cards .award:nth-child(1) {
+        padding-top: 50px;
+    }
+
+}
+
+@media(min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    header .sign .sign-in {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        width: 112px;
+        height: 52px;
+        background-color: #3A68B8;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .introduction .introduction-left-side .info .watch {
+        margin-left: 15px;
+    }
+    
+    .introduction .introduction-right-side img {
+        width: 552px;
+        margin: 0 auto;
+    }
+
+    .introduction .introduction-left-side {
+       padding-top: 70px;
+    }
+
+
+    .introduction .introduction-left-side .info {
+        margin-top: 40px;
+    }
+
+    .introduction .introduction-right-side {
+        padding-left: 50px;
+        margin-top: 28px;
+    }
+
+   
+    .introduction .introduction-left-side h1 {
+        font-size: 45px;
+    }
+    .introduction .introduction-left-side article {
+        font-size: 19px;
+    }
+
+    .partners .companies img:nth-child(1),
+    .partners .companies img:nth-child(3) {
+    display: block;
+}
+
+    .introduction .introduction-left-side .info .watch {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 217px;
+    height: 57px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    color: #fff;
+}
+
+    .partners .companies img {
+        margin-right: 50px;
+    }
+    .partners .companies {
+        margin-left: -100px;
+    }
+    .partners .companies {
+        margin-top: 80px;
+    }
+
+    .ai .ai-right h3 {
+        font-weight: 700;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .ai {
+        display: flex;
+    }
+
+    .ai .ai-left img {
+        width: 585px;
+    }
+
+    .ai  {
+        margin-top: 180px;
+    }
+
+    .ai .ai-right {
+        width: 484px;
+        margin-top: 100px;
+    }
+    
+    .ai .ai-right .about a {
+        margin-top: 50px;
+    }
+    
+
+    .awards .award-cards .award h4 {
+        font-size: 23px;
+    }
+    
+
+    .awards .award-cards .award:nth-child(1) {
+        padding-top: 50px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+        margin: 0 auto;
+    }
+
+.partners .companies img:nth-child(1),
+.partners .companies img:nth-child(4) {
+    display: block;
+}
+
+header .sign .sign-in {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 112px;
+    height: 52px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.introduction .introduction-left-side .info .watch {
+    margin-left: 15px;
+}
+
+.introduction .introduction-right-side img {
+    width: 632px;
+    margin: 0 auto;
+}
+
+.introduction .introduction-left-side {
+   padding-top: 70px;
+}
+
+.introduction .introduction-left-side .info {
+    margin-top: 40px;
+}
+
+.introduction .introduction-right-side {
+    padding-left: 50px;
+    margin-top: 28px;
+}
+
+
+.introduction .introduction-left-side h1 {
+    font-size: 55px;
+}
+.introduction .introduction-left-side article {
+    font-size: 22px;
+}
+
+.partners .companies img:nth-child(1),
+.partners .companies img:nth-child(3) {
+display: block;
+}
+
+.introduction .introduction-left-side .info .watch {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 217px;
+height: 57px;
+background-color: #3A68B8;
+border-radius: 5px;
+color: #fff;
+}
+
+.partners .companies img {
+    margin-right: 50px;
+}
+.partners .companies {
+    margin-left: -100px;
+}
+
+
+.ai .ai-right h3 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.ai {
+    display: flex;
+}
+
+
+.ai .ai-left img {
+    width: 665px;
+}
+
+.ai  {
+    margin-top: 180px;
+}
+
+.ai .ai-right {
+    width: 484px;
+    margin-top: 100px;
+}
+
+.ai .ai-right .about a {
+    margin-top: 50px;
+}
+
+.awards .award-cards .award h4 {
+    font-size: 23px;
+}
+
+
+.awards .award-cards .award:nth-child(1) {
+    padding-top: 50px;
+}
+
+}
