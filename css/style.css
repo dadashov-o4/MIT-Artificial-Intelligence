@@ -31,13 +31,27 @@ header nav a {
     margin-left: 30px;
 }
 
+header .nav a:hover {
+    color: #9fbef3;
+}
+
 header .sign .sign-in {
     display: none;
+    -webkit-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+
+header .sign .sign-in:hover {
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
 }
 
 
 
-
+/*! INTRODUCTION */
 
 
 .introduction .introduction-left-side h5 {
@@ -73,6 +87,15 @@ header .sign .sign-in {
     background-color: #3A68B8;
     border-radius: 5px;
     color: #fff;
+    -webkit-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+.introduction .introduction-left-side .info .get:hover {
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
 }
 
 .introduction .introduction-left-side .info .watch {
@@ -85,6 +108,15 @@ header .sign .sign-in {
     border-radius: 5px;
     color: #fff;
     margin-top: 10px;
+    -webkit-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+.introduction .introduction-left-side .info .watch:hover {
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
 }
 
 .introduction .introduction-left-side .info .watch .fa-play {
@@ -105,6 +137,9 @@ header .sign .sign-in {
 }
 
 
+/*! PARTNERS */
+
+
 .partners .companies {
     margin-top: 50px;
     margin-left: 20px;
@@ -114,6 +149,9 @@ header .sign .sign-in {
     width: 120px;
     margin-right: 20px;
 }
+
+
+/*! AI */
 
 .ai .ai-right h3 {
     font-weight: 700;
@@ -138,6 +176,13 @@ header .sign .sign-in {
     color: #fff;
 }
 
+
+.ai .ai-right .about a:hover {
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+}
+
 .ai .ai-left img {
     width: 300px;
 
@@ -157,6 +202,8 @@ header .sign .sign-in {
 }
 
 
+
+/*! AWARDS */
 .awards {
     margin-top: 90px;
 }
@@ -179,7 +226,18 @@ header .sign .sign-in {
     border-radius: 5px;
     margin-right: 20px;
     margin-top: 20px;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
 }
+
+.awards .award-cards .award:hover {
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(138, 138, 138, 0.75);
+}
+
+
 
 .awards .award-cards .award img {
     margin-left: 75px;
@@ -227,7 +285,7 @@ header .sign .sign-in {
 }
 
 
-/*! SOLUTIONS start */
+/*! SOLUTIONS */
 
 
 .solutions {
@@ -267,11 +325,9 @@ header .sign .sign-in {
 
 
 
-/*! SOLUTIONS end */
 
 
-
- /*! FOOTER start */
+/*! FOOTER */
 
 footer {
     background-color: #081221;
@@ -352,15 +408,6 @@ footer .language {
 }
 
 
-/*! FOOTER end */
-
-
-
-
-
-
-
-
 /*! RESPONSIVE FOR NAV  */
 
 @media(min-width: 568px) {
@@ -421,7 +468,7 @@ footer .language {
         width: 150px;
         margin-right: 30px;
     }
-    
+
 
 
 }
@@ -438,7 +485,7 @@ footer .language {
         height: 50px;
     }
 
-    
+
 }
 
 
@@ -457,24 +504,10 @@ footer .language {
 
 }
 
-@media(max-width: 575px) {
-    .container {
-        max-width: 100%;
-    }
-}
 
-@media(min-width: 576px) {
-    .container {
-        max-width: 540;
-        margin: 0 auto;
-    }
-}
 
 @media(min-width: 768px) {
-    .container {
-        max-width: 720px;
-        margin: 0 auto;
-    }
+
 
     header img {
         margin-left: 25px;
@@ -564,7 +597,7 @@ footer .language {
         padding-left: 40px;
     }
 
-    
+
 
     .ai .ai-left img {
         width: 600px;
@@ -687,10 +720,7 @@ footer .language {
 }
 
 @media(min-width: 992px) {
-    .container {
-        max-width: 920px;
-        margin: 0 auto;
-    }
+
 
 
     header img {
@@ -714,9 +744,13 @@ footer .language {
     }
 
 
+
+
     .introduction .introduction-left-side .info .watch {
         margin-left: 0px;
     }
+
+
 
     .introduction .introduction-right-side img {
         width: 502px;
@@ -925,10 +959,6 @@ footer .language {
 }
 
 @media(min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
 
     header .sign .sign-in {
         display: inline-flex;
@@ -1145,10 +1175,7 @@ footer .language {
 }
 
 @media(min-width: 1400px) {
-    .container {
-        max-width: 1320px;
-        margin: 0 auto;
-    }
+
 
     .partners .companies img:nth-child(1),
     .partners .companies img:nth-child(4) {
