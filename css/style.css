@@ -12,6 +12,20 @@ body {
     padding: 0;
 }
 
+body::-webkit-scrollbar {
+    background: #031433;
+    width: 10px;
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #10025c;
+    border-radius: 6px;
+}
+
+
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -405,6 +419,10 @@ footer .icons {
 
 footer .language {
     margin-top: 65px;
+}
+
+footer .column-left .contact-us a:hover {
+    color: #3A68B8;
 }
 
 
