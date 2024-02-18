@@ -439,22 +439,14 @@ footer .column-left .contact-us a:hover {
 }
 
 @media(min-width: 768px) {
-    header .nav {
-        display: block;
-    }
 
-    header nav a {
-        margin-left: 18px;
-    }
 
     header .fa-bars {
-        display: none;
+        padding-right: 40px;
+        
     }
 
-    header .sign {
-        display: block;
-    }
-
+    
 
 }
 
@@ -465,6 +457,14 @@ footer .column-left .contact-us a:hover {
 
     .introduction {
         display: flex;
+    }
+
+    header .sign {
+        display: block;
+    }
+
+    header .fa-bars {
+        display: none;
     }
 }
 
@@ -520,6 +520,19 @@ footer .column-left .contact-us a:hover {
         width: 350px;
     }
 
+}
+
+
+@media(min-width: 375px) and (max-width: 576px) {
+    .fa-bars {
+        padding-left: 50px;
+    }
+}
+
+@media(min-width: 414px) and (max-width: 576px) {
+    .fa-bars {
+        padding-left: 80px;
+    }
 }
 
 
@@ -1095,26 +1108,28 @@ footer .column-left .contact-us a:hover {
 
     .awards .award-cards {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         margin-right: 15px;
     }
 
+
     .awards .award-cards .award {
         margin-right: 0;
-        padding-left: 0;
+        padding: 10px;
     }
 
     .awards .award-cards .award img {
-        margin-left: 72px;
+        margin-left: 62px;
     }
 
     .awards .award-cards .award h4 {
-        font-size: 22px;
-        margin-left: 15px;
+        font-size: 19px;
+        margin-left: 10px;
     }
 
     .awards .award-cards .award article {
         text-align: center;
+        font-size: 14px;
     }
 
 
@@ -1319,6 +1334,8 @@ footer .column-left .contact-us a:hover {
     .awards .award-cards .award {
         margin-right: 20px;
         padding: 20px;
+
+        
     }
 
     .awards .award-cards .award h4 {
