@@ -51,6 +51,8 @@ header .nav a:hover {
 
 header .sign .sign-in {
     display: none;
+    background-color: #3A68B8;
+    color: #fff;
     -webkit-transition: all .1s ease-in;
     -o-transition: all .1s ease-in;
     transition: all .1s ease-in;
@@ -567,9 +569,7 @@ footer .column-left .contact-us a:hover {
         align-items: center;
         width: 217px;
         height: 57px;
-        background-color: #3A68B8;
         border-radius: 5px;
-        color: #fff;
     }
 
     .introduction .introduction-right-side {
@@ -597,11 +597,7 @@ footer .column-left .contact-us a:hover {
 
 
 
-    .partners .companies img:nth-child(1),
-    .partners .companies img:nth-child(3) {
-        display: block;
-    }
-
+    
 
     .partners .companies img {
         width: 150px;
@@ -687,7 +683,6 @@ footer .column-left .contact-us a:hover {
     .solutions .solution .solution-left-side p {
         font-weight: 400;
         font-size: 16px;
-        color: #8a8a8a;
         margin-top: 20px;
         width: 400px;
     }
@@ -738,7 +733,6 @@ footer .column-left .contact-us a:hover {
         flex-direction: row;
         margin-top: 20px;
         gap: 18px;
-        color: #8a8a8a;
     }
 
     footer .language {
@@ -764,10 +758,8 @@ footer .column-left .contact-us a:hover {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        color: #fff;
         width: 112px;
         height: 52px;
-        background-color: #3A68B8;
         border-radius: 5px;
         font-weight: 600;
         font-size: 16px;
@@ -809,13 +801,9 @@ footer .column-left .contact-us a:hover {
     }
 
     .introduction .introduction-left-side article {
-        font-size: 22px;
+        font-size: 19px;
     }
 
-    .partners .companies img:nth-child(1),
-    .partners .companies img:nth-child(3) {
-        display: block;
-    }
 
     .introduction .introduction-left-side .info .watch {
         display: inline-flex;
@@ -823,9 +811,7 @@ footer .column-left .contact-us a:hover {
         align-items: center;
         width: 217px;
         height: 57px;
-        background-color: #3A68B8;
         border-radius: 5px;
-        color: #fff;
     }
 
     .partners .companies img {
@@ -976,7 +962,6 @@ footer .column-left .contact-us a:hover {
         flex-direction: row;
         margin-top: 20px;
         gap: 18px;
-        color: #8a8a8a;
     }
 
     footer .language {
@@ -995,10 +980,8 @@ footer .column-left .contact-us a:hover {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        color: #fff;
         width: 112px;
         height: 52px;
-        background-color: #3A68B8;
         border-radius: 5px;
         font-weight: 600;
         font-size: 16px;
@@ -1037,11 +1020,7 @@ footer .column-left .contact-us a:hover {
         font-size: 19px;
     }
 
-    .partners .companies img:nth-child(1),
-    .partners .companies img:nth-child(3),
-    .partners .companies img:nth-child(4) {
-        display: block;
-    }
+   
 
     .introduction .introduction-left-side .info .watch {
         display: inline-flex;
@@ -1049,9 +1028,7 @@ footer .column-left .contact-us a:hover {
         align-items: center;
         width: 217px;
         height: 57px;
-        background-color: #3A68B8;
         border-radius: 5px;
-        color: #fff;
     }
 
     .partners .companies img {
@@ -1154,7 +1131,6 @@ footer .column-left .contact-us a:hover {
     .solutions .solution .solution-left-side p {
         font-weight: 400;
         font-size: 16px;
-        color: #8a8a8a;
         margin-top: 20px;
         width: 400px;
     }
@@ -1196,7 +1172,6 @@ footer .column-left .contact-us a:hover {
         flex-direction: row;
         margin-top: 20px;
         gap: 18px;
-        color: #8a8a8a;
     }
 
     footer .language {
@@ -1210,19 +1185,14 @@ footer .column-left .contact-us a:hover {
 @media(min-width: 1400px) {
 
 
-    .partners .companies img:nth-child(1),
-    .partners .companies img:nth-child(4) {
-        display: block;
-    }
+   
 
     header .sign .sign-in {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        color: #fff;
         width: 112px;
         height: 52px;
-        background-color: #3A68B8;
         border-radius: 5px;
         font-weight: 600;
         font-size: 16px;
@@ -1257,7 +1227,7 @@ footer .column-left .contact-us a:hover {
     }
 
     .introduction .introduction-left-side article {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .partners .companies img:nth-child(1),
@@ -1271,9 +1241,7 @@ footer .column-left .contact-us a:hover {
         align-items: center;
         width: 217px;
         height: 57px;
-        background-color: #3A68B8;
         border-radius: 5px;
-        color: #fff;
     }
 
     .partners .companies img {
@@ -1374,7 +1342,6 @@ footer .column-left .contact-us a:hover {
         flex-direction: row;
         margin-top: 20px;
         gap: 18px;
-        color: #8a8a8a;
     }
 
     footer .language {
