@@ -348,8 +348,8 @@ header .sign .sign-in:hover {
 
 footer {
     background-color: #081221;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     padding: 10px 30px 50px 30px;
@@ -523,6 +523,10 @@ footer .column-left .contact-us a:hover {
         width: 350px;
     }
 
+    header .fa-bars {
+        padding-left: 40px;
+    }
+
 }
 
 
@@ -535,6 +539,29 @@ footer .column-left .contact-us a:hover {
 @media(min-width: 414px) and (max-width: 576px) {
     .fa-bars {
         padding-left: 80px;
+    }
+
+    header div:first-child {
+        width: 300px !important;
+    }
+    header div:first-child img {
+        width: 100%;
+    }
+    header .fa-bars {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 576px) {
+    header div:first-child {
+        width: 200px;
+    }
+    header div:first-child img {
+        width: 100%;
+    }
+
+    header .fa-bars {
+        margin-left: 50px;
     }
 }
 
@@ -768,7 +795,9 @@ footer .column-left .contact-us a:hover {
     }
 
 
-
+    .introduction {
+        margin-top: 0;
+    }
 
     .introduction .introduction-left-side .info .watch {
         margin-left: 0px;
